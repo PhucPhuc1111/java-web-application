@@ -1,0 +1,177 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 18, 2023, 6:22:56 AM
+    Author     : Admin
+*/
+
+/*=================================
+    Filter
+===================================*/
+
+.price-filter {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.price-filter h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.price-values {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.min-price,
+.max-price {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.search-form {
+    margin-top: 20px;
+}
+
+.search-form label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.search-form input[type="range"] {
+    width: 100%;
+    height: 6px;
+    -webkit-appearance: none;
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+
+.search-form input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 14px;
+    height: 14px;
+    background-color: #4c8bf5;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search-form input[type="range"]::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    background-color: #4c8bf5;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search-form button {
+    background-color: #4c8bf5;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.search-form button:hover {
+    background-color: #3672d1;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.delete-item {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.delete-item:hover {
+    background-color: darkred;
+}
+
+.cart-dropdown {
+    /* Thêm kiểu dáng cho giỏ hàng */
+    width: 300px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.cart-header {
+    /* Thêm kiểu dáng cho tiêu đề giỏ hàng */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cart-items li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cart-items img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.item-info {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-name {
+    /* Thêm kiểu dáng cho tên sản phẩm */
+    font-weight: bold;
+    flex-basis: 100%;
+}
+
+.item-price {
+    /* Thêm kiểu dáng cho giá sản phẩm */
+    color: #888;
+    flex-basis: 100%;
+}
+
+.item-quantity {
+    /* Thêm kiểu dáng cho số lượng sản phẩm */
+    color: #888;
+    flex-basis: 100%;
+}
+
+.delete-item {
+    /* Thêm kiểu dáng cho nút xóa sản phẩm */
+    color: #f00;
+    margin-left: auto;
+    flex-basis: 100%;
+}
+
+.cart-order {
+    /* Thêm kiểu dáng cho nút đặt hàng */
+    text-align: center;
+    margin-top: 10px;
+}
+
+detail-img{
+    width: 80px;
+}
